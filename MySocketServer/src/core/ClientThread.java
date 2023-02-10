@@ -29,8 +29,7 @@ import java.time.format.DateTimeFormatter;
 Chatting 서버
 1. 클라이언트의 접속 -> ServerWorker Thread 생성 및 start
 2. ServerWorker -> 개별 client에 채팅 서비스
-3. 공지 채팅 가능하도록 변경 **
-4. 채팅방 인원 공지 
+3. 채팅방 인원 공지 
 */
 //TCP 서버는 여러 클라이언트의 요청을 처리 할 수 있어야 하고, 동시에 각 클라이언트들과 통신을 할 수 있어야 합니다.
 //그래서 필요한 것이 쓰레드 
