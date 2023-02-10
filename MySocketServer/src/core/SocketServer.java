@@ -42,8 +42,7 @@ import core.SocketServer;
 Chatting 서버
 1. 클라이언트의 접속 -> ServerWorker Thread 생성 및 start
 2. ServerWorker -> 개별 client에 채팅 서비스
-3. 공지 채팅 가능하도록 변경 **
-4. 채팅방 인원 공지 
+3. 채팅방 인원 공지 
 */
 public class SocketServer{
 	static ArrayList<ClientThread> list;//쓰레드 리스트 
